@@ -95,7 +95,7 @@ then
 	echo "" >> dnsoutput.txt
 	echo "$DOMAIN" >> dnsoutput.txt
         echo "" >> dnsoutput.txt
-	echo "A-RECORD:" >> dnsoutput.txt
+	echo "A-RECORDS:" >> dnsoutput.txt
 	dig +short a $DOMAIN >> dnsoutput.txt
 	echo "" >> dnsoutput.txt
 	echo "MX-RECORDS:" >> dnsoutput.txt
